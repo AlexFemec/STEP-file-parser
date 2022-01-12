@@ -6,7 +6,7 @@ using System.IO;
 
 namespace STEP_Parser
 {
-    class EXPRESS_Schema  //rename this since it's not specific to AP203
+    class EXPRESS_Schema 
     {
         public EXPRESS_Schema(string filename )
         {
