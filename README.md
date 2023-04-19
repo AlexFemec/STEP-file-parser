@@ -1,4 +1,4 @@
-Parser for reading ISO 10303-21 STEP files.  
+<b>Parser for reading ISO 10303-21 STEP files. </b>
 
 I needed to extract certain geometric elements from STEP files, so I put together this very basic module to handle the parsing phase of the process.
 This can be easily extended to other ISO 10303 formats by swapping the EXPRESS schema
@@ -6,9 +6,9 @@ This can be easily extended to other ISO 10303 formats by swapping the EXPRESS s
 Various express schemas are avaliable here: https://github.com/stepcode/stepcode/tree/develop/data
 
 
-Sample output of tree print after parsing:
+Sample output of tree after parsing:
 
-
+<pre>
 1 APPLICATION_PROTOCOL_DEFINITION
 └──2 APPLICATION_CONTEXT
 3 SHAPE_DEFINITION_REPRESENTATION
@@ -53,3 +53,4 @@ Sample output of tree print after parsing:
    │     │  │     │        │     │  └──40 VECTOR
    │     │  │     │        │     │     └──41 DIRECTION
    │     │  │     │        │     └──42 COMPLEX
+   </pre>
